@@ -47,12 +47,12 @@ class Pokemon {
     }
     getMagic(num) {
 
-        this.magic += num
+        this.magie += num
         return `${this.name} hat ${num} Magie zurückbekommen.`
 
     }
     toHeal(num) {
-        this.health += num
+        this.gesundheit += num
         return `${this.name} hat ${num} Gesundheit zurückbekommen.`
     }
 }
